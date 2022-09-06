@@ -1,0 +1,49 @@
+*{
+
+}
+
+body{
+    color : white;
+    margin:0px;
+    padding:0px;
+    background-image:url('/26_websiteProject/img/img1.jpeg');
+    /* background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-repeat: no-repeat;
+    height: 50000px;
+}
+.left{
+    display: inline-block;
+    border: 3px solid red;
+    position:absolute;
+    left: 10px;
+    top:20px;
+}
+.mid{
+    border:3px solid green ;
+    display:block;
+    width: 50%;
+    margin: 20px auto;
+}
+.right{
+    position:absolute;
+    right: 10px;
+    top:20px;
+    display:inline-block;
+    border:3px solid yellow;
+}
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size:25px;
+}
+
+.navbar li a{
+    color:white;
+    padding:  15px 15px;
+    text-decoration: none;
+}
