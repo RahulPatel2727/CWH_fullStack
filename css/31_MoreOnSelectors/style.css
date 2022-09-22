@@ -1,0 +1,31 @@
+h1{
+    background-color: blue;
+    color: red;
+    font-weight: solid;
+    text-align: center;
+}
+/* div li p{
+    color:yellow;
+    font-weight: solid;
+    background-color: green;
+} */
+/* div > p{
+    color: yellow;
+    font-weight: solid;
+    background:green;
+} */
+/* div + p{
+    color: red;
+} */
+/* div:nth-child(2){
+    color:green;
+} */
+div li{
+    text-decoration: none;
+    color:blue;
+ }
+
+ div li p{
+    color : red;
+ }
+ 

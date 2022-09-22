@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&family=Qwitcher+Grypen:wght@700&display=swap');
+*{
+    
+}
+body{
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.navbar{
+    background-color: rgb(4, 4, 4);
+    border-radius: 8px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style:none;
+    padding:8px 26px; 
+}
+.navbar li  a{
+    text-decoration: none;
+    color:white; 
+    
+}
+.search{
+    float: right;
+    color:white;
+    padding: 4px 64px;
+}
+.navbar input{
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 1px 14px;
+    width:100%;
+}
+.navbar li a:hover{
+    /* background: red; */
+    color : red;
+    border-radius: 35px;
+
+}

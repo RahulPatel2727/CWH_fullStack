@@ -1,0 +1,43 @@
+*{
+    /* box-sizing: border-box; */
+}
+.box{
+    border:2px solid rgb(26, 26, 49);
+    width:150px;
+    height:150px;
+    display: inline-block;
+    margin:10px;
+}
+#box1{
+
+}
+#box2{
+
+}
+#box3{
+    /* position:relative;
+    top:40px;
+    left:40px; */
+    /* position: absolute;
+    top:30px;
+    left:30px; */
+    /* position: fixed;
+    bottom: 2px;
+    right:15px; */
+    /* width: 230px; */
+    position: sticky;
+    top: 10px;
+    
+
+}
+#box4{
+
+}
+.container{
+    border:2px solid rgb(5, 23, 5);
+    background-color: khaki;
+    height: 38427893px;
+}
+.image{
+    /* content: url('/24/images/MSFT_logo.png'); */
+}

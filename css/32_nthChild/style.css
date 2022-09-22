@@ -1,0 +1,52 @@
+.container{
+    /* display: block; */
+    /* margin: 34px 34px; */
+    margin: auto;
+    width: 292px;
+    display: block;
+}
+input{
+    display: block;
+}
+input[type='password']{
+    color: red;
+    border: 2px solid red;
+}
+a[target='_blank']{
+    color: red;
+    text-decoration: none;
+    size: 20px;
+}
+a [target='_parent']{
+    color: blue;
+    text-decoration: none;
+    size:30px;
+}
+input[type='email']{
+    color:red;
+    background-color: tomato;
+}
+li:nth-child(4){
+    color:brown;
+}
+li:first-child{
+    color:blue;
+}
+li:last-child{
+    color:blue;
+}
+li:nth-child(2n+0){
+    color:yellow;
+}
+li:nth-last-of-type(4){
+    color:blueviolet;
+}
+li:nth-last-child(3){
+    color: aqua;
+}
+li:nth-child(odd){
+    color:tomato;
+}
+li:nth-child(even){
+    color:purple;
+}

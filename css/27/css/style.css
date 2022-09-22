@@ -1,0 +1,30 @@
+*{
+
+}
+.box{
+    height: 120px;
+    width: 120px;
+    /* background-color: blanchedalmond ; */
+}
+#div1{
+    background-color:rgb(132, 132, 237);
+    position: relative;
+    top:0px;
+    z-index: 3;
+}
+#div2{
+    background-color:rgb(118, 226, 143);
+    /* visibility:hidden; */
+    /* display: none; */
+    position:relative;
+    top:0px;
+    z-index: 2;
+}
+#div3{
+    position:relative;
+    background-color:rgb(246, 54, 54);
+}
+#div4{
+    position: relative;
+    background-color:rgb(226, 144, 73);
+}

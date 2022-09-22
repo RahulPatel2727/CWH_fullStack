@@ -1,0 +1,70 @@
+
+
+body{
+    margin:0px; 
+    padding:0px;
+    background-color: black;
+    color:white;
+    /* background: url('https://source.unsplash.com/user/1600x900') no-repeat center center/cover; */
+    
+}
+header::before{
+    background: url('https://source.unsplash.com/user/erondu/1600x900');
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
+
+}
+.navigation{
+    display:flex;
+    color:white;
+    font-size: 2rem;
+}
+.navigation li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation li a:hover{
+    background-color: rgb(196, 25, 25);
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.1;
+}
+ .item:hover{
+    cursor: pointer;
+ }
+li{
+    list-style: none;
+    padding: 0px 14px;
+}
+
+section{
+    height: 500px;
+    /* border: 2px solid red; */
+    /* padding:3px 23px; */
+    
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    margin:2px 40px;
+}
+/* section::before{
+    content: "this is before content";
+} */
+section::after{
+    content: "this is before after";
+}
+h1{
+    font-family: 'Nabla', cursive;
+    font-size: 4rem;
+}
+p{
+    text-align: center;
+}
